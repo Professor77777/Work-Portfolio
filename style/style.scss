@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$ColorIndigo: #1C1E53;;
+$ColorWhite: #ffffff;
+$ColorDark: #282938;
+$ColorYellow: #FCD980;
+
+body {
+    header {
+        background: $ColorIndigo;
+        height: 10vh;
+        .container {
+            .navbar {
+                .container {
+                    .collapse {
+                        .navbar-nav {
+                            .nav-item {
+                                .nav-link {
+                                    color: $ColorWhite;
+                                }
+                            }
+                        }
+                        .d-flex {
+                            .btn {
+                                color: $ColorWhite;
+                                border: 0.5px solid $ColorWhite !important;
+                                border-radius: 50px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
